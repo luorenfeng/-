@@ -1,38 +1,12 @@
-# 后台模板
+# 后台管理系统模板
 
-This template should help get you started developing with Vue 3 in Vite.
+使用的技术栈是 Vue3+element-plus
 
-## Recommended IDE Setup
+练手的小项目，权限路由用if代替判断用户登录时的权限来显示或隐藏后台的一些功能，如商品管理只有超级管理员可见。
+用的是mock假接口模拟网络请求数据。
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+安装依赖
+npm i
 
-## Recommended Browser Setup
-
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd) 
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
+启动项目
 npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
